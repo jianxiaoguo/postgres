@@ -9,6 +9,11 @@ timeout: "1200"
 # If left empty they will be generated using randAlphaNum
 username: ""
 password: ""
+controller_db_name: ""
+manager_db_name: ""
+passport_db_name: ""
 # Configure the following ONLY if using an off-cluster database.
 postgres:
-  url: "postgres://USER:PASSWORD@HOST:PORT/NAME"
+  controller_db_url: "postgres://USER:PASSWORD@HOST:PORT/NAME"
+  manager_db_url: "postgres://USER:PASSWORD@HOST:PORT/NAME"
+  passport_db_url: "postgres://USER:PASSWORD@HOST:PORT/NAME"
